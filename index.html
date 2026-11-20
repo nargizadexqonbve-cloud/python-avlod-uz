@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Python Avlod UZ</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #26344d;
+}
+
+header {
+  background: #202b45;
+  color: white;
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  color: #55d6a3;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero {
+  background: linear-gradient(135deg,#263c65,#526fe0);
+  color: white;
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+button {
+  background: #55d6a3;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.courses {
+  padding: 55px 8%;
+  text-align: center;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #ddd;
+}
+
+.card h3 {
+  color: #304d91;
+  margin-bottom: 15px;
+}
+
+.card p {
+  line-height: 1.6;
+}
+
+footer {
+  background: #202b45;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media(max-width:600px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h2>Python Avlod UZ</h2>
+  <nav>
+    <a href="#home">Bosh sahifa</a>
+    <a href="#courses">Kurslar</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Python dasturlashni biz bilan o‘rganing!</h1>
+  <p>Kelajagingizni bugundan dasturlash bilan yarating.</p>
+  <button onclick="alert('Python Avlod UZ ga xush kelibsiz!')">
+    Boshlash
+  </button>
+</section>
+
+<section class="courses" id="courses">
+  <h1>Bizning kurslar</h1>
+
+  <div class="course-list">
+
+    <div class="card">
+      <h3>Python Beginner</h3>
+      <p>Python dasturlash asoslarini noldan o‘rganing.</p>
+    </div>
+
+    <div class="card">
+      <h3>Python Advanced</h3>
+      <p>Murakkab dasturlash bilimlarini egallang.</p>
+    </div>
+
+    <div class="card">
+      <h3>Web Programming</h3>
+      <p>HTML, CSS va JavaScript bilan ishlashni o‘rganing.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Python Avlod UZ</p>
+  <p>Barcha huquqlar himoyalangan.</p>
+</footer>
+
+</body>
+</html>
